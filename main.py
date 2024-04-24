@@ -12,7 +12,7 @@ while True:
     first_choice = int(input("\nEnter the operation you wish..... \n"))
 
 
-    if first_choice in range(0,11):
+    if first_choice in range(0,4):
 
         if first_choice == 1:
             def gcd_prime(a, b):
